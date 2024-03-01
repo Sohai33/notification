@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:notification1/reuseable/styles.dart';
 
 import 'birthday_detail_page.dart';
 
-var mystyle = TextStyle(fontSize: 25);
-Color appbarcolor = Colors.deepOrange;
+
 
 class Birthdaywhiez extends StatelessWidget {
   List wishez = [

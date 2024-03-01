@@ -1,8 +1,12 @@
-import 'package:birthday_wishez/birthday_whishez.dart';
-import 'package:flutter/material.dart';
+
 import 'package:clipboard/clipboard.dart';
+import 'package:flutter/material.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:share_plus/share_plus.dart';
+import 'package:notification1/reuseable/styles.dart';
+
+
+
+
 
 class Birthdaydetail extends StatelessWidget {
   late String message;
@@ -14,7 +18,8 @@ class Birthdaydetail extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: appbarcolor,
         ),
-        body: SingleChildScrollView(child: Center(
+        body: SingleChildScrollView(
+            child: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -55,7 +60,7 @@ class Birthdaydetail extends StatelessWidget {
                       iconSize: 50,),
                       IconButton(
                         onPressed: (){
-                          Share.share(message);
+                          //Share.share(message);
                         },
                         icon: Icon(Icons.share),
                         iconSize: 50,),
